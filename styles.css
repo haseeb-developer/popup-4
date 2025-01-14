@@ -94,6 +94,10 @@ body {
   margin-top: 4px;
 }
 
+.dropdown-option {
+  border-bottom: 1px solid #ddd;
+}
+
 .dropdown-menu label {
   display: flex;
   align-items: center;
