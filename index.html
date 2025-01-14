@@ -28,9 +28,28 @@
           <input type="text" id="listing-source" value="ABC Telecom">
         </div>
         <div class="form-group">
-          <label for="listed-with">Status</label>
-          <input type="text" id="listed-with" value="Tenanted">
+          <label for="status" class="form-label">Status</label>
+          <div class="custom-dropdown">
+            <button class="dropdown-toggle" id="status-toggle">Tenanted</button>
+            <div class="dropdown-menu">
+              <label class="dropdown-option">
+                <input type="radio" name="status" value="Tenanted" checked>
+                <span>Tenanted</span>
+              </label>
+              <label class="dropdown-option">
+                <input type="radio" name="status" value="Owner Occupied">
+                <span>Owner Occupied</span>
+              </label>
+              <label class="dropdown-option">
+                <input type="radio" name="status" value="Vacant">
+                <span>Vacant</span>
+              </label>
+            </div>
+          </div>
         </div>
+        
+        
+
         <div class="form-group">
           <label for="availability-status">Contact no.</label>
           <input type="text" id="availability-status" value="+97142312368">
@@ -58,6 +77,8 @@
     </button>
 
   </div>
+
+  <script src="./app.js"></script>
 </body>
 
 </html>
